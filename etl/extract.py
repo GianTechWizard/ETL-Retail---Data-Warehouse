@@ -12,7 +12,7 @@ def extract_csv(file_path: str) -> pd.DataFrame:
         pd.DataFrame: Raw data as DataFrame.
     """
     try:
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path, sep=";")
         print(f"[EXTRACT] Successfully extracted data from {file_path}")
         print(f"[EXTRACT] Number of rows: {df.shape[0]}")
         print(f"[EXTRACT] Number of columns: {df.shape[1]}")
