@@ -3,5 +3,5 @@ DB_CONFIG = {
     "port": 5433,
     "database": "retail_dw",
     "user": "postgres",
-    "password": "GianPOS123"
+    "password": "postgres123"
 }
